@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-data-quality-pipeline"
+version = "0.1.0"
+description = "Data quality pipeline using PySpark, PyTest and Azure Databricks"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyspark==4.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

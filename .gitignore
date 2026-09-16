@@ -1,0 +1,67 @@
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Spark
+
+.sparkStaging/
+metastore_db/
+derby.log
+spark-warehouse/
+
+# IDEs
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Generated data
+
+data/processed/
+data/quality/
