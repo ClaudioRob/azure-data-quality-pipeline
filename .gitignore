@@ -23,7 +23,6 @@ dist/
 .coverage
 htmlcov/
 .coverage.*
-.pytest_cache/
 
 # Jupyter
 
@@ -61,7 +60,8 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Generated data
+# Data
 
+data/raw/
 data/processed/
 data/quality/
